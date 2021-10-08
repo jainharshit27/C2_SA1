@@ -13,8 +13,11 @@ while True:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             pygame.quit()
-            sys.exit()
-        
+    
+    cactus_rect.x = cactus_rect.x - 1
+    -- cactus_rect.x <= -30-      # Replace "--" to make the line a conditional statement.
+        cactus_rect-- = 1200      # Replace "--" with the coordinate you want.
+    
     pygame.draw.rect(screen, (100, 100, 100), dino_rect)
     pygame.draw.rect(screen, (100, 100, 100), cactus_rect)
     pygame.draw.rect(screen, (100, 100, 100), ground_rect)
