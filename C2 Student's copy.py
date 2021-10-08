@@ -14,7 +14,7 @@ while True:
         if event.type == pygame.QUIT:
             pygame.quit()
     
-    cactus_rect.x = cactus_rect.x - 1
+    ------------- = cactus_rect.x-1     # Replace "--" to reduce 1 from cactus_rect.x.
     -- cactus_rect.x <= -30-      # Replace "--" to make the line a conditional statement.
         cactus_rect-- = 1200      # Replace "--" with the coordinate you want.
     
